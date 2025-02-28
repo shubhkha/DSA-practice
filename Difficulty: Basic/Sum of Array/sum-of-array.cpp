@@ -11,14 +11,13 @@ class Solution {
     // Function to return sum of elements
     int arraySum(vector<int>& arr) {
         // code here
-        int cnt = 0;
-        for(int i = 0; i < arr.size(); i++){
-            cnt = cnt + arr[i];
-        }
-        return cnt;
+       int sum = 0;
+       for(int i = 0; i < arr.size(); i++){
+           sum = sum + arr[i];
+       }
+       return sum;
     }
 };
-
 
 //{ Driver Code Starts.
 
